@@ -1,6 +1,7 @@
 <template>
     <section class="hero" :style="{'background-image': 'url(' + require('../assets/gaming.jpg') + ')'}">
         <h2>{{slogan}}</h2>
+        <input type="search">
     </section>
 </template>
 

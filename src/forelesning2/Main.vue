@@ -3,7 +3,7 @@
         <Header :sitetitle="sitetitle"></Header>
         <Hero slogan="We build cool games in 2020"></Hero>
         <section class="row">
-            <Game v-for="game in games" :key="game.name" :game="game"></Game>
+        <Game v-for="game in games" :key="game.name" :game="game"></Game>
         </section>
         <Footer :sitetitle="sitetitle"></Footer>
     </main>
