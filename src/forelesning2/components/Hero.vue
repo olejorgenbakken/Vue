@@ -15,9 +15,9 @@ export default {
 
 <style scoped>
 .hero {
-    background-position: center center;
+    background-position: center -210px;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,9 +26,9 @@ export default {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 7em;
     color: white;
     text-align: center;
-    text-shadow: 0 0 10px blue;
+    text-shadow: 0 0 30px purple;
 }
 </style>
