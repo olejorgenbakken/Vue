@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .row {
-    padding: 60px 40px;
+    padding: 40px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
