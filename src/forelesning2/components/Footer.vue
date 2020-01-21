@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <h1>{{name}}</h1>
+        <h1>{{sitetitle}}</h1>
     </footer>
 </template>
 
@@ -8,7 +8,16 @@
 export default {
     name: "Footer",
     props: {
-        name: String,
+        sitetitle: String,
     }
 }
 </script>
+
+<style scoped>
+footer {
+    background: #111;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+</style>

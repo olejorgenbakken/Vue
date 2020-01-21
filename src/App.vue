@@ -14,13 +14,24 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Gelasio:400,700i|Roboto:400,700,900&display=swap');
+:root {
+  --serif: 'Gelasio', serif;
+  --sans-serif: 'Roboto', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  font-family: var(--sans-serif);
   margin: 0 auto;
-  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
 }
 </style>
