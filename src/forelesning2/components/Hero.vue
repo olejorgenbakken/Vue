@@ -1,7 +1,6 @@
 <template>
     <section class="hero" :style="{'background-image': 'url(' + require('../assets/gaming.jpg') + ')'}">
         <h2>{{slogan}}</h2>
-        <input type="search">
     </section>
 </template>
 
@@ -18,7 +17,7 @@ export default {
 .hero {
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

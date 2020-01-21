@@ -46,7 +46,7 @@ export default {
 }
 
 .game-info {
-    padding: 0 15px 15px 15px;
+    padding: 0 15px 20px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +64,7 @@ export default {
 .price {
     padding: 10px 20px;
     background: rgb(26, 26, 26);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: white;
     border-radius: 2px;
 }
