@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Main from "./forelesning2/Main.vue";
+import Main from "./forelesning3/Main.vue";
 
 export default {
   name: "app",
