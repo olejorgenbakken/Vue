@@ -1,34 +1,37 @@
 <template>
-    <section class="hero" :style="{'background-image': 'url(' + require('../assets/gaming.jpg') + ')'}">
-        <h2>{{slogan}}</h2>
-    </section>
+  <section
+    class="hero"
+    :style="{'background-image': 'url(' + require('../assets/gaming.jpg') + ')'}"
+  >
+    <h2>{{slogan}}</h2>
+  </section>
 </template>
 
 <script>
 export default {
-    name: "Hero",
-    props: {
-        slogan: String,
-    }
-}
+  name: "Hero",
+  props: {
+    slogan: String
+  }
+};
 </script>
 
 <style scoped>
 .hero {
-    background-position: center -210px;
-    background-size: cover;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 80px;
+  background-position: center -210px;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
 }
 
 h2 {
-    font-size: 7em;
-    color: white;
-    text-align: center;
-    text-shadow: 0 0 30px purple;
+  font-size: 7em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 30px purple;
 }
 </style>

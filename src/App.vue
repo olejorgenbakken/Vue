@@ -1,23 +1,23 @@
 <template>
-    <Main></Main>
+  <Main></Main>
 </template>
 
 <script>
-import Main from './forelesning2/Main.vue'
+import Main from "./forelesning2/Main.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Main
   }
-}
+};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Gelasio:400,700i|Roboto:400,700,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Gelasio:400,700i|Roboto:400,700,900&display=swap");
 :root {
-  --serif: 'Gelasio', serif;
-  --sans-serif: 'Roboto', sans-serif;
+  --serif: "Gelasio", serif;
+  --sans-serif: "Roboto", sans-serif;
 }
 
 * {
