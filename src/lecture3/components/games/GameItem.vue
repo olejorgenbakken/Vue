@@ -4,7 +4,7 @@
       <section class="game-release">
         <p
           class="date"
-        >Releases: {{releaseDate.getDate()}}.{{releaseDate.getMonth()}}.{{releaseDate.getFullYear()}}</p>
+        >Coming out: {{releaseDate.getDate()}}.{{releaseDate.getMonth()}}.{{releaseDate.getFullYear()}}</p>
       </section>
       <img v-bind:src="img" v-bind:alt="title + ' cover'" />
     </section>
