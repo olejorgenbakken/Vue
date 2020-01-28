@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .hero {
-  background-position: center -210px;
+  background-position: center center;
   background-size: cover;
   height: 70vh;
   display: flex;
@@ -33,5 +33,11 @@ h2 {
   color: white;
   text-align: center;
   text-shadow: 0 0 30px purple;
+}
+
+@media only screen and (min-width: 700px) {
+  .hero {
+    background-position: center top;
+  }
 }
 </style>
