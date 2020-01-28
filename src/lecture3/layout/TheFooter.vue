@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
     <img :src="company.logo" :alt="company.name" />
     <nav>
       <ul>
@@ -28,7 +28,7 @@ export default {
         logo:
           "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftechartninja.com%2Fwp-content%2Fuploads%2FMicrosoftStudiosLogo.png&f=1&nofb=1",
         sponsors: ["Accenture", "Microsoft", "IKEA", "Apple"],
-        contact: ["Ole Jørgen Bakken", "github.com/olejorgenbakken"]
+        contact: ["Ole Jørgen Bakken", "https://www.microsoftstudios.com/"]
       }
     };
   }
@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style scoped>
-footer {
+.footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   display: grid;
   grid-template-columns: 1fr;

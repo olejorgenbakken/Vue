@@ -14,7 +14,7 @@ import Row from "./components/games/GameList";
 import Footer from "./layout/TheFooter";
 
 export default {
-  name: "Main",
+  name: "Lecture3",
   props: {
     sitetitle: {
       name: String,

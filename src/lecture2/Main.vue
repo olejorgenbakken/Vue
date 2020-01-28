@@ -12,7 +12,7 @@ import Content from "./components/Content.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
-  name: "Main",
+  name: "Lecture2",
   props: {
     sitetitle: {
       name: String,

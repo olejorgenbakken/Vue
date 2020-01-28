@@ -1,7 +1,7 @@
 <template>
-  <header>
-    <img :src="logo" :alt="sitetitle" />
-    <h1>{{sitetitle}}</h1>
+  <header class="header">
+    <img :src="logo" :alt="sitetitle" class="logo" />
+    <h1 class="sitetitle">{{sitetitle}}</h1>
   </header>
 </template>
 
@@ -24,8 +24,8 @@ export default {
 };
 </script>
 
-<style>
-header {
+<style scoped>
+.header {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,12 +38,12 @@ header {
   color: white;
 }
 
-img {
+.logo {
   width: 160px;
   margin: 0 auto;
 }
 
-h1 {
+.sitetitle {
   display: none;
 }
 </style>
