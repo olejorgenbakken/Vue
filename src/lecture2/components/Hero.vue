@@ -29,13 +29,16 @@ export default {
 }
 
 h2 {
-  font-size: 7em;
+  font-size: 4em;
   color: white;
   text-align: center;
   text-shadow: 0 0 30px purple;
 }
 
 @media only screen and (min-width: 700px) {
+  h2 {
+    font-size: 6em;
+  }
   .hero {
     background-position: center top;
   }

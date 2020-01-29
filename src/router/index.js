@@ -9,6 +9,11 @@ Vue.use(Router);
 export default new Router({
 	routes: [
 		{
+			path: '/',
+			name: 'Lecture1',
+			component: Lecture1
+		},
+		{
 			path: '/lecture1',
 			name: 'Lecture1',
 			component: Lecture1

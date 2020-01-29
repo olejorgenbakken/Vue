@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "app"
+  name: "App"
 };
 </script>
 
@@ -71,7 +71,8 @@ a {
 }
 
 #navigation section {
-  max-width: 600px;
+  width: 100%;
+  max-width: 400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
