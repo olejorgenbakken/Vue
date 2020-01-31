@@ -19,22 +19,22 @@ export default new Router({
 		{
 			path: '/lecture1',
 			name: 'Lecture1',
-			component: () => import(/* webpackChunkName: 'Lecture1' */ '../views/Lecture1')
+			component: () => import(/* webpackChunkName: 'Lecture1' */ '../views/lectures/Lecture1')
 		},
 		{
 			path: '/lecture2',
 			name: 'Lecture2',
-			component: () => import(/* webpackChunkName: 'Lecture2' */ '../views/Lecture2')
+			component: () => import(/* webpackChunkName: 'Lecture2' */ '../views/lectures/Lecture2')
 		},
 		{
 			path: '/lecture3',
 			name: 'Lecture3',
-			component: () => import(/* webpackChunkName: 'Lecture3' */ '../views/Lecture3')
+			component: () => import(/* webpackChunkName: 'Lecture3' */ '../views/lectures/Lecture3')
 		},
 		{
 			path: '/lecture4',
 			name: 'Lecture4',
-			component: () => import(/* webpackChunkName: 'Lecture4' */ '../views/Lecture4')
+			component: () => import(/* webpackChunkName: 'Lecture4' */ '../views/lectures/Lecture4')
 		},
 		{
 			path: '*',

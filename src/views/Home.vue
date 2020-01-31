@@ -1,6 +1,10 @@
 <template>
   <main id="home">
-    <h1>Scroll down to choose a lecture</h1>
+    <img
+      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FWs9ksgMH6nbGemB3Yh%2Fgiphy.gif&f=1&nofb=1"
+      alt="welcome message"
+    />
+    <p>Scroll down to choose a lecture</p>
   </main>
 </template>
 
@@ -19,5 +23,15 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#home img {
+  width: 50%;
+  max-width: 340px;
+  margin-bottom: 40px;
+}
+
+#home p {
+  font-size: 1.2em;
 }
 </style>
