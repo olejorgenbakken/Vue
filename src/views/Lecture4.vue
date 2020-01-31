@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Header from "../src/lecture4/layout/Header";
+import Header from "../lecture4/layout/Header";
 export default {
   name: "Lecture4",
   components: {
