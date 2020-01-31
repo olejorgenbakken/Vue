@@ -7,7 +7,7 @@
         <router-link to="/lecture1">Lecture 1: Basics</router-link>
         <router-link to="/lecture2">Lecture 2: Components and props</router-link>
         <router-link to="/lecture3">Lecture 3: Components and props (cont.)</router-link>
-        <router-link to="/lecture4">Lecture 4: Routing</router-link>
+        <router-link to="/lecture4">Lecture 4: Routing and methods</router-link>
       </nav>
 
       <nav id="links">

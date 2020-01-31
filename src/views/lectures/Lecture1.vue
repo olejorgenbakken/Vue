@@ -1,5 +1,5 @@
 <template>
-  <main id="main">
+  <main>
     <Hero msg="Welcome comrade" brief="A showcase of icons" />
     <PersonList title="People"></PersonList>
   </main>

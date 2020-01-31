@@ -4,7 +4,7 @@
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FWs9ksgMH6nbGemB3Yh%2Fgiphy.gif&f=1&nofb=1"
       alt="welcome message"
     />
-    <p>Scroll down to choose a lecture</p>
+    <p class="welcome-msg">Scroll down to choose a lecture</p>
   </main>
 </template>
 
@@ -31,7 +31,7 @@ export default {
   margin-bottom: 40px;
 }
 
-#home p {
+#home .welcome-msg {
   font-size: 1.2em;
 }
 </style>

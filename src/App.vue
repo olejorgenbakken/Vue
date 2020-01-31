@@ -1,8 +1,10 @@
 <template>
-  <main>
-    <router-view />
+  <wrapper>
+    <keep-alive include="MyWishes">
+      <router-view />
+    </keep-alive>
     <TheFooter></TheFooter>
-  </main>
+  </wrapper>
 </template>
 
 <script>
