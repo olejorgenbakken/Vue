@@ -1,11 +1,13 @@
 <template>
   <section id="my-wishes">
-    <h1>My apartment wishlist</h1>
+    <header>
+      <h1>My apartment wishlist</h1>
+      <p>Total wishes: {{wishes.length}}</p>
+    </header>
     <section class="wishes">
       <ul>
         <li v-for="wish in wishes" :key="wish.name" :title="wish">{{wish}}</li>
       </ul>
-      <p>Total wishes: {{wishes.length}}</p>
     </section>
     <section class="add-wish">
       <label>Add new wish</label>
@@ -26,7 +28,15 @@ export default {
   },
   methods: {
     submit() {
-      this.wishes.push(this.newWish);
+      if (this.newWish != "" && this.newWish != null) {
+        if (this.wishes.length < 36) {
+          this.wishes.push(this.newWish);
+        } else {
+          alert("No more wishes for you my friend.");
+        }
+      } else {
+        alert("Wishes can't be empty");
+      }
     }
   }
 };
@@ -35,51 +45,69 @@ export default {
 <style scoped>
 #my-wishes {
   width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 240px;
-  gap: 30px;
+  max-width: 500px;
+  height: calc(100vh - 40px);
 }
 
-#my-wishes h1 {
-  font-size: 2em;
-  grid-column: 1 / span 2;
+#my-wishes header {
+  max-width: 450px;
+  margin: 0 auto;
 }
 
 .wishes {
-  margin: 10px 0 30px 0;
+  width: 100%;
+  max-width: 450px;
+  margin: 20px auto;
 }
 
 .wishes ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px 20px;
-  text-transform: capitalize;
-}
-
-.wishes p {
-  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .add-wish {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 550px;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 20px;
-  color: white;
-  border: 1px solid white;
-  gap: 10px;
-  align-self: center;
+  row-gap: 10px;
+  padding: 30px 20px;
+  background: rgb(5, 40, 71);
+}
+
+.add-wish label {
+  font-size: 1.1em;
+}
+
+.add-wish input {
+  border: none;
+  border-radius: 3px;
+}
+
+.add-wish input[type="text"] {
+  padding: 5px;
 }
 
 .add-wish input[type="button"] {
-  background: white;
-  color: #000000;
-  border: none;
-  border-radius: 2px;
   padding: 10px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1em;
+  font-family: var(--sans-serif);
+}
+
+@media only screen and (min-width: 600px) {
+  .add-wish {
+    padding-left: 40px;
+    padding-right: 40px;
+    bottom: 50px;
+    left: unset;
+    box-shadow: none;
+  }
 }
 </style>

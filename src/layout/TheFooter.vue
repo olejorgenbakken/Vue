@@ -27,6 +27,7 @@ export default {
 <style scoped>
 #navigation {
   position: relative;
+  z-index: 2;
   width: 100%;
   background: black;
   height: 100vh;
