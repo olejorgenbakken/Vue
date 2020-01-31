@@ -12,6 +12,11 @@ export default new Router({
 			component: Home
 		},
 		{
+			path: '/#/',
+			name: 'Home',
+			component: Home
+		},
+		{
 			path: '/lecture1',
 			name: 'Lecture1',
 			component: () => import(/* webpackChunkName: 'Lecture1' */ '../views/Lecture1')
