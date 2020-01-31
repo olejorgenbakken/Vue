@@ -9,6 +9,7 @@
           <router-link to="lecture1">Lecture 1</router-link>
           <router-link to="lecture2">Lecture 2</router-link>
           <router-link to="lecture3">Lecture 3</router-link>
+          <router-link to="lecture4">Lecture 4</router-link>
         </nav>
 
         <nav id="links">
