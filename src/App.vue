@@ -51,6 +51,7 @@ img {
 
 a {
   width: max-content;
+  text-decoration: none;
 }
 
 #navigation {
@@ -88,6 +89,10 @@ a {
 
 .navigation-header {
   font-size: 1.2em;
+}
+
+#navigation nav a {
+  color: white;
 }
 
 #links a {

@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Header from "./layout/TheHeader";
-import Hero from "./components/heros/Hero";
-import Row from "./components/games/GameList";
-import Footer from "./layout/TheFooter";
+import Header from "../src/lecture3/layout/TheHeader";
+import Hero from "../src/lecture3/components/heros/Hero";
+import Row from "../src/lecture3/components/games/GameList";
+import Footer from "../src/lecture3/layout/TheFooter";
 
 export default {
   name: "Lecture3",
