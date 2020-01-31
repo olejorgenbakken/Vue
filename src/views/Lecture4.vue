@@ -1,15 +1,15 @@
 <template>
-  <main>
-    <Header></Header>
-  </main>
+  <main></main>
 </template>
 
 <script>
-import Header from "../lecture4/layout/Header";
 export default {
   name: "Lecture4",
-  components: {
-    Header
+  props: {
+    sitetitle: {
+      name: String,
+      default: "A Gaming Studio 2.0"
+    }
   }
 };
 </script>
