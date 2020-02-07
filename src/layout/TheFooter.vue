@@ -8,6 +8,7 @@
         <router-link to="/lecture2">Lecture 2: Components and props</router-link>
         <router-link to="/lecture3">Lecture 3: Components and props (cont.)</router-link>
         <router-link to="/lecture4">Lecture 4: Routing and methods</router-link>
+        <router-link to="/lecture5">Lecture 5: Vuetify</router-link>
       </nav>
 
       <nav id="links">

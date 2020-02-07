@@ -32,6 +32,11 @@ export default new Router({
 			component: () => import(/* webpackChunkName: 'Lecture4' */ '../views/lectures/Lecture4')
 		},
 		{
+			path: '/lecture5',
+			name: 'Lecture4',
+			component: () => import(/* webpackChunkName: 'Lecture4' */ '../views/lectures/Lecture5')
+		},
+		{
 			path: '*',
 			name: 'NotFound',
 			component: () => import(/* webpackChunkName: 'NotFoundPage' */ '../views/NotFoundPage')
