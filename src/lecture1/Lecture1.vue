@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Hero from "../../lecture1/components/Hero";
-import PersonList from "../../lecture1/components/people/PersonList";
+import Hero from "./components/Hero";
+import PersonList from "./components/people/PersonList";
 export default {
   name: "Lecture1",
   components: {

@@ -1,5 +1,5 @@
 <template>
-  <section class="row">
+  <section class="rows">
     <h3 class="row-title">all our games</h3>
     <section class="row-items">
       <Game v-for="game in games" :key="game.title" :game="game"></Game>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped>
-.row {
+.rows {
   padding: 0 40px 50px 40px;
   background: linear-gradient(45deg, rgb(21, 59, 131), rgb(68, 0, 0));
 }

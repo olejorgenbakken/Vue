@@ -1,5 +1,5 @@
 <template>
-  <footer id="navigation">
+  <nav id="navigation">
     <section>
       <h3 class="navigation-header">Project overview</h3>
       <nav>
@@ -16,16 +16,16 @@
         <a href="http://github.com/olejorgenbakken">GitHub</a>
       </nav>
     </section>
-  </footer>
+  </nav>
 </template>
 
 <script>
 export default {
-  name: "TheFooter"
+  name: "Navigation"
 };
 </script>
 
-<style scoped>
+<style>
 #navigation {
   position: relative;
   z-index: 2;

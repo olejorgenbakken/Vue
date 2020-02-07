@@ -1,18 +1,18 @@
 <template>
-  <wrapper>
-    <keep-alive include="MyWishes">
-      <router-view />
-    </keep-alive>
-    <TheFooter></TheFooter>
-  </wrapper>
+  <v-app>
+    <router-view />
+    <Navigation></Navigation>
+  </v-app>
 </template>
 
 <script>
-import TheFooter from "./layout/TheFooter";
+import Navigation from "./layout/Navigation";
 
 export default {
   name: "App",
-  components: { TheFooter }
+  components: {
+    Navigation
+  }
 };
 </script>
 

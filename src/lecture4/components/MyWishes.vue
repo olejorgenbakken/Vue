@@ -92,6 +92,8 @@ export default {
 
 .add-wish input[type="text"] {
   padding: 5px;
+  color: black;
+  background: white;
 }
 
 .add-wish input[type="button"] {
@@ -99,6 +101,8 @@ export default {
   font-weight: 600;
   font-size: 1em;
   font-family: var(--sans-serif);
+  background: white;
+  color: black;
 }
 
 @media only screen and (min-width: 600px) {

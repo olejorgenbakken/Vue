@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Hero from "../../lecture2/components/Hero.vue";
-import Content from "../../lecture2/components/Content.vue";
-import Footer from "../../lecture2/components/Footer.vue";
+import Hero from "./components/Hero.vue";
+import Content from "./components/Content.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "Lecture2",

@@ -1,5 +1,5 @@
 <template>
-  <section class="row">
+  <section class="rows">
     <h3 class="row-title">all our games</h3>
     <section class="row-items">
       <GameItem
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-.row {
+.rows {
   padding: 0 40px 80px 40px;
   background: linear-gradient(
     0deg,

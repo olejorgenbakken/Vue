@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '@/views/Home';
 
 Vue.use(Router);
 
@@ -8,33 +7,32 @@ export default new Router({
 	routes: [
 		{
 			path: '/',
-			name: 'Home',
-			component: Home
+			name: 'Navigation'
 		},
 		{
 			path: '/lecture1',
 			name: 'Lecture1',
-			component: () => import(/* webpackChunkName: 'Lecture1' */ '../views/lectures/Lecture1')
+			component: () => import(/* webpackChunkName: 'Lecture1' */ '../lecture1/Lecture1')
 		},
 		{
 			path: '/lecture2',
 			name: 'Lecture2',
-			component: () => import(/* webpackChunkName: 'Lecture2' */ '../views/lectures/Lecture2')
+			component: () => import(/* webpackChunkName: 'Lecture2' */ '../lecture2/Lecture2')
 		},
 		{
 			path: '/lecture3',
 			name: 'Lecture3',
-			component: () => import(/* webpackChunkName: 'Lecture3' */ '../views/lectures/Lecture3')
+			component: () => import(/* webpackChunkName: 'Lecture3' */ '../lecture3/Lecture3')
 		},
 		{
 			path: '/lecture4',
 			name: 'Lecture4',
-			component: () => import(/* webpackChunkName: 'Lecture4' */ '../views/lectures/Lecture4')
+			component: () => import(/* webpackChunkName: 'Lecture4' */ '../lecture4/Lecture4')
 		},
 		{
 			path: '/lecture5',
-			name: 'Lecture4',
-			component: () => import(/* webpackChunkName: 'Lecture4' */ '../views/lectures/Lecture5')
+			name: 'Lecture5',
+			component: () => import(/* webpackChunkName: 'Lecture5' */ '../lecture5/Lecture5')
 		},
 		{
 			path: '*',
