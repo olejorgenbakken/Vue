@@ -27,6 +27,7 @@ export default {
 </script>
 
 <style scoped>
+/* test */
 .cat-list {
   display: grid;
   grid-template-columns: 1fr;
