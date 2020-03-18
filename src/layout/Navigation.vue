@@ -4,11 +4,12 @@
       <h3 class="navigation-header">Project overview</h3>
       <nav>
         <h4 class="navigation-header">Lectures</h4>
-        <router-link to="/lecture1">Lecture 1: Basics</router-link>
-        <router-link to="/lecture2">Lecture 2: Components and props</router-link>
-        <router-link to="/lecture3">Lecture 3: Components and props (cont.)</router-link>
-        <router-link to="/lecture4">Lecture 4: Routing and methods</router-link>
-        <router-link to="/lecture5">Lecture 5: Vuetify</router-link>
+        <router-link to="/lecture/1">Lecture 1: Basics</router-link>
+        <router-link to="/lecture/2">Lecture 2: Components and props</router-link>
+        <router-link to="/lecture/3">Lecture 3: Components and props (cont.)</router-link>
+        <router-link to="/lecture/4">Lecture 4: Routing and methods</router-link>
+        <router-link to="/lecture/5">Lecture 5: Vuetify</router-link>
+        <router-link to="/lecture/6">Lecture 6: AJAX and Axios</router-link>
       </nav>
 
       <nav id="links">
