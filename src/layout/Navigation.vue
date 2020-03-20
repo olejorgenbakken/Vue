@@ -10,6 +10,7 @@
         <router-link to="/lecture/4">Lecture 4: Routing and methods</router-link>
         <router-link to="/lecture/5">Lecture 5: Vuetify</router-link>
         <router-link to="/lecture/6">Lecture 6: AJAX and Axios</router-link>
+        <router-link to="/lecture/10">Lecture 10: API</router-link>
       </nav>
 
       <nav id="links">
