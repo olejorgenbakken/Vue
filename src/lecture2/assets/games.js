@@ -72,7 +72,7 @@ let games = [
 	{
 		title: 'Portal 2',
 		img:
-			'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmovies.networthpost.com%2Fmovies%2Fimages%2F1674047_Gabe-Newell%2F1674047_Portal-2-2011.jpg&f=1&nofb=1',
+			'https://m.media-amazon.com/images/M/MV5BNzEyNGM5YjgtYjFkMC00MTE1LTk1YjgtNjAyYjA2ODUzNzQwXkEyXkFqcGdeQXVyNjk2MTcyMDA@._V1_.jpg',
 		genre: 'Puzzle',
 		price: 15.99,
 		releaseDate: toDate('19.04.2011'),

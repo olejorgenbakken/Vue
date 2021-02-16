@@ -9,7 +9,7 @@ export default {
     img: {
       type: String,
       default:
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsociorocketnewsen.files.wordpress.com%2F2016%2F05%2F10.gif%3Fw%3D640%26h%3D361&f=1&nofb=1"
+        "https://wallpapercave.com/wp/wp8331675.gif"
     }
   }
 };
@@ -26,7 +26,7 @@ export default {
 @media only screen and (min-width: 900px) {
   .hero {
     background-size: 110%;
-    background-position: left 70%;
+    background-position: center;
   }
 }
 </style>
